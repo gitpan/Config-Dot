@@ -1,2 +1,7 @@
+0.02 (July 24, 2012)
+- Change versions of my modules to last version.
+- Fix serialize with $INPUT_RECORD_SEPARATOR.
+- Remove obsolete code.
+
 0.01 (June 22, 2012)
-First version.
+- First version.
