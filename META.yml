@@ -7,6 +7,7 @@ build_requires:
   ExtUtils::MakeMaker: 6.36
   File::Object: 0.05
   Test::More: 0
+  Test::NoWarnings: 0
   Test::Pod: 0
   Test::Pod::Coverage: 0
 configure_requires:
@@ -26,12 +27,13 @@ no_index:
     - t
 requires:
   Class::Utils: 0.03
-  Config::Utils: 0.02
+  Config::Utils: 0.03
   Error::Pure: 0.08
   Readonly: 0
+  perl: 5.6.2
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Config-Dot
   homepage: https://github.com/tupinek/Config-Dot
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/tupinek/Config-Dot
-version: 0.03
+version: 0.04
